@@ -59,11 +59,11 @@ public class BaseClass {
 		//driver.get(url);
 	}
 
-	//signout the application
+	//Signing out from the application
 	@AfterMethod(alwaysRun = true)
 	public void configAM() 
 	{
-		System.out.println("signout");
+		System.out.println("signout from the application");
 	}
 
 	//close the browser
